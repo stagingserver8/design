@@ -263,6 +263,7 @@ font-size: 17px;
 #pic1 {
   border:1.5px solid #D2C1B2;
   border-radius: 15px;
+  width: 90%;
 }
 
 
@@ -331,4 +332,21 @@ ul li:nth-child(4) a:hover .fab {
 
 ul li:nth-child(5) a:hover .fab {
   color: #e4405f;
+}
+
+
+/* Mobile */
+
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+
+  }
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
